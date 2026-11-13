@@ -9,3 +9,5 @@
 # Rule 3: Kevin cooks
 
 # Rule 4: Chris teaches skateboard
+
+# Rule 5: No hats at the dinner table
