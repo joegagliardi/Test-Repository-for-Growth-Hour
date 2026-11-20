@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Hello World Test</title>
+</head>
 <body>
+    <h1>Hello from Growth Hour!</h1>
+    <p id="greeting">Click the button to say hello.</p>
+    <button onclick="sayHello()">Say Hello</button>
+
     <script>
-        console.log("Bonjourno, World!");
-        alert("Bonjourno, World!");
+        const greetings = ["Hello, World!", "Hola, Mundo!", "Ciao, Mondo!", "Bonjour, le Monde!"];
+        let index = 0;
+
+        function sayHello() {
+            const message = greetings[index];
+            document.getElementById("greeting").textContent = message;
+            console.log(message);
+            index = (index + 1) % greetings.length;
+        }
     </script>
 </body>
 </html>
