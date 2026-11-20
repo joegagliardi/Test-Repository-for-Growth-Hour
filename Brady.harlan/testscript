@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        console.log("Bonjourno, World!");
+        alert("Bonjourno, World!");
+    </script>
+</body>
+</html>
